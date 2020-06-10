@@ -1,0 +1,7 @@
+select 
+product.name,
+category.name
+from
+product as product
+  left join category as caregory
+    on product.categoryId = caregory.Id
